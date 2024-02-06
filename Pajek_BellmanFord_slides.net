@@ -1,0 +1,19 @@
+*vertices 7
+	1 "A"
+	2 "B"
+	3 "C"
+	4 "D"
+	5 "E"
+	6 "F"
+	7 "G"
+*arcs
+	A B 6
+	A C 5
+	A D 5
+	B E -1
+	C B -2
+	C E 1
+	D C -2
+	D F -1
+	E G 3
+	F G 3
